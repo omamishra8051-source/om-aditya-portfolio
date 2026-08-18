@@ -98,7 +98,7 @@ const projects = [
     icon: Network,
     visual: "/manus-storage/om-security-visual_bccfef5d.png",
     accent: "mint",
-    github: "https://github.com/Pratishtha-sh/Network-Behavior-Intelligence",
+    github: "https://github.com/omamishra8051-source/Network-Behavior-Intelligence",
   },
   {
     id: "healthify",
@@ -114,7 +114,7 @@ const projects = [
     icon: Code2,
     visual: "/manus-storage/om-hero-systems_fa89acb1.png",
     accent: "cobalt",
-    github: "https://github.com/Pratishtha-sh/Healthify",
+    github: "https://github.com/omamishra8051-source/Healthify",
   },
 ];
 const skillGroups = [

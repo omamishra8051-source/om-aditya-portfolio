@@ -38,7 +38,7 @@ const projects = [
   },
   {
     id: "pentest",
-    number: "02",
+    number: "03",
     kind: "SECURITY / MCP",
     title: "PenTest MCP",
     subtitle: "AI-powered vulnerability scanning server",
@@ -54,7 +54,7 @@ const projects = [
   },
   {
     id: "dwpt",
-    number: "03",
+    number: "04",
     kind: "FULL-STACK / REAL-TIME",
     title: "DWPT Agentic Platform",
     subtitle: "EV dynamic power transfer ecosystem",
@@ -70,7 +70,7 @@ const projects = [
   },
   {
     id: "edge",
-    number: "04",
+    number: "05",
     kind: "BLOCKCHAIN / SYSTEMS",
     title: "Edge Compute Marketplace",
     subtitle: "Trust-minimized distributed computation",
@@ -83,9 +83,40 @@ const projects = [
     visual: "/manus-storage/om-hero-systems_fa89acb1.png",
     accent: "cobalt",
     github: "https://github.com/omamishra8051-source/Decentralized-edge-compute-marketplace-on-Ethereum-with-BFT-consensus-staking-and-dispute-resolution",
+    },
+  {
+    id: "network-behavior",
+    number: "06",
+    kind: "SECURITY / ML",
+    title: "Network Behavior Intelligence",
+    subtitle: "Real-time network anomaly analysis system",
+    description:
+      "A behavioral analytics system that turns live packet telemetry into interpretable security signals using sliding-window metrics, entropy analysis, autoencoder-based anomaly detection, and contextual verification.",
+    outcome: "TShark capture · autoencoder · explainable dashboard",
+    trace: "BEHAVIOR TRACE / CAPTURE → LEARN → EXPLAIN",
+    tags: ["Python", "TShark", "Autoencoder", "FastAPI", "TypeScript"],
+    icon: Network,
+    visual: "/manus-storage/om-security-visual_bccfef5d.png",
+    accent: "mint",
+    github: "https://github.com/Pratishtha-sh/Network-Behavior-Intelligence",
+  },
+  {
+    id: "healthify",
+    number: "07",
+    kind: "FULL-STACK / HEALTH",
+    title: "Healthify",
+    subtitle: "Role-based hospital operations platform",
+    description:
+      "A centralized hospital-management system connecting patient registration, appointments, records, billing, prescriptions, and pharmacy workflows through role-scoped dashboards and layered service architecture.",
+    outcome: "RBAC · relational workflows · Dockerized services",
+    trace: "CARE TRACE / REGISTER → CONSULT → COORDINATE",
+    tags: ["React", "Backend APIs", "RBAC", "SQL", "Docker"],
+    icon: Code2,
+    visual: "/manus-storage/om-hero-systems_fa89acb1.png",
+    accent: "cobalt",
+    github: "https://github.com/Pratishtha-sh/Healthify",
   },
 ];
-
 const skillGroups = [
   { label: "AI / ML", items: ["LangGraph", "LangChain", "PyTorch", "TensorFlow", "OpenCV", "LLMs", "FAISS", "ChromaDB"] },
   { label: "Backend & data", items: ["Python", "FastAPI", "Flask", "SQLAlchemy", "Pydantic", "PostgreSQL", "MongoDB", "REST APIs"] },
@@ -98,7 +129,7 @@ const navItems = ["work", "capabilities", "journey", "contact"];
 export default function Home() {
   const [activeFilter, setActiveFilter] = useState("ALL");
   const [menuOpen, setMenuOpen] = useState(false);
-  const filters = ["ALL", "AI / DATA", "SECURITY / MCP", "FULL-STACK / REAL-TIME", "BLOCKCHAIN / SYSTEMS"];
+  const filters = ["ALL", "AI / DATA", "SECURITY / ML", "SECURITY / MCP", "FULL-STACK / REAL-TIME", "FULL-STACK / HEALTH", "BLOCKCHAIN / SYSTEMS"];
   const visibleProjects = useMemo(
     () => activeFilter === "ALL" ? projects : projects.filter((project) => project.kind === activeFilter),
     [activeFilter],

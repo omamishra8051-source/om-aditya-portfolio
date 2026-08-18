@@ -1,6 +1,6 @@
-# Resume link repair checklist
+# Linked resume asset checklist
 
-- [x] Diagnose the current resume asset and CTA behavior.
-- [x] Add a visible resume link in the contact section.
-- [x] Make the hero resume CTA open/download the PDF reliably.
-- [x] Verify the PDF asset, frontend behavior, and save a revised checkpoint.
+- [x] Inspect the supplied PDF text positions and identify visible account/project labels.
+- [x] Add clickable LinkedIn, GitHub, and project repository annotations without altering the rendered page.
+- [x] Validate all link annotations and one-page structure.
+- [x] Upload the linked PDF, update the portfolio resume asset, and save a checkpoint.

@@ -1,6 +1,6 @@
-# Resume asset update checklist
+# Resume link repair checklist
 
-- [x] Inspect the uploaded resume and current portfolio resume link.
-- [x] Upload the supplied resume.pdf to persistent web project storage.
-- [x] Replace the portfolio CTA URL with the new asset URL.
-- [x] Verify the link and save a revised checkpoint.
+- [x] Diagnose the current resume asset and CTA behavior.
+- [x] Add a visible resume link in the contact section.
+- [x] Make the hero resume CTA open/download the PDF reliably.
+- [x] Verify the PDF asset, frontend behavior, and save a revised checkpoint.

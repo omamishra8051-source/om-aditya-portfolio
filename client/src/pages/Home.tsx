@@ -167,7 +167,7 @@ export default function Home() {
           <p className="hero-intro">I build intelligent systems with strong foundations in <strong>machine learning</strong>, practical instincts for <strong>cybersecurity</strong>, and the full-stack range to take an idea from data to interface.</p>
           <div className="hero-ctas">
             <button className="button-primary" onClick={() => scrollTo("work")}>EXPLORE THE WORK <ArrowUpRight size={16} /></button>
-            <a className="button-text" href="/manus-storage/OmAdityaMishra_SoftwareEngineer_4b4dd3c8.pdf">VIEW RESUME <ExternalLink size={15} /></a>
+            <a className="button-text" href="/manus-storage/resume_da120710.pdf">VIEW RESUME <ExternalLink size={15} /></a>
           </div>
           <div className="hero-meta"><span><MapPin size={14} /> BENGALURU, INDIA</span><span><Sparkles size={14} /> RVCE · CSE (CY)</span><span>7TH SEMESTER</span></div>
         </div>
